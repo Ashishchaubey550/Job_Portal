@@ -9,13 +9,13 @@ const TalentProfilePage=()=>{
     <div className=' bg-neutral-100 min-h-[98vh] p-4'>
         <Divider size="xs"/>
         <Link className='my-4 inline-block' to="/findtalend">
-          <Button leftSection={<i className="ri-arrow-left-line text-xl"></i>} color="yellow.8" variant="light">Profile</Button>
+          <Button leftSection={<i className="ri-arrow-left-line text-xl"></i>} color="yellow.8" variant="light">Back</Button>
         </Link>
         <Divider size="xs"/>
         <div className='flex gap-5'>
             <Profile/>
             <RecomandedTalents/>
-        </div>
+        </div>  
     </div>
   )
 }

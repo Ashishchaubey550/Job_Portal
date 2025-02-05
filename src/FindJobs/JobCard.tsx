@@ -1,9 +1,9 @@
-import { Divider, MenuDivider, Text } from "@mantine/core";
-import React from "react";
+import { Divider, Text } from "@mantine/core";
+import { Link } from "react-router-dom";
 
 const JobCard = (props:any) => {
   return (
-    <div className="bg-gray-200 p-4 w-[350px] capitalize flex flex-col gap-5 rounded-xl hover:shadow-[0_0_5px_1px_yellow] !shadow-green-500">
+    <Link to='/jobs' className="bg-gray-200 p-4 w-[350px] capitalize flex flex-col gap-5 rounded-xl hover:shadow-[0_0_5px_1px_yellow] !shadow-green-500">
       <div className="flex justify-between">
         <div className="flex gap-2 items-center">
           <div className=" p-2 bg-gray-200 rounded-md">
@@ -31,7 +31,7 @@ const JobCard = (props:any) => {
         <i className="ri-time-line text-xl h-7 w-5"/> {props.postedDayAgo}
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 

@@ -11,6 +11,8 @@ import Footer from './Foot/Footer';
 import FindTalendtPage from './Pages/FindTalendtPage';
 import TalentProfilePage from './Pages/TalentProfilePage';
 import PostJobs from './Pages/PostJobs';
+import '@mantine/tiptap/styles.css';
+import JobDescriptionPage from './Pages/JobDescriptionPage';
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
       <Header/>
         <Routes>
           <Route path='/postjobs' element={<PostJobs/>}/>
+          <Route path='/jobs' element={<JobDescriptionPage/>}/>
           <Route path='talent_Profile' element={<TalentProfilePage/>}/>
           <Route path='/findtalend' element={<FindTalendtPage/>}/>
           <Route path='/findjobs' element={<FindJobPage/>} />
