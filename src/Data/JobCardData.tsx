@@ -1,0 +1,185 @@
+const jobcardData = [
+    {
+        jobTitle: "Software Engineer",
+        company: "Tech Innovations Inc.",
+        applicants: "120",
+        experience: "3-5 years",
+        jobType: "Full-Time",
+        location: "San Francisco, CA",
+        package: "$120,000",
+        postedDayAgo: "2 days ago",
+        Description: "We are looking for a skilled software engineer to join our dynamic team. Experience with JavaScript and Python is a plus.",
+        logo: "src/assets/icons/icon1.png"
+    },
+    {
+        jobTitle: "Product Manager",
+        company: "Innovate Solutions",
+        applicants: "95",
+        experience: "5-7 years",
+        jobType: "Full-Time",
+        location: "New York, NY",
+        package: "$130,000",
+        postedDayAgo: "5 days ago",
+        Description: "Lead the development and launch of new products. Must have experience in agile methodologies.",
+        logo: "src/assets/icons/icon1.png"
+    },
+    {
+        jobTitle: "Graphic Designer",
+        company: "Creative Designs LLC",
+        applicants: "45",
+        experience: "2-4 years",
+        jobType: "Freelance",
+        location: "Remote",
+        package: "$70,000",
+        postedDayAgo: "1 week ago",
+        Description: "Seeking a creative graphic designer to work on branding and marketing campaigns.",
+                logo: "src/assets/icons/icon1.png"
+    },
+    {
+        jobTitle: "Data Scientist",
+        company: "DataX Solutions",
+        applicants: "200",
+        experience: "4-6 years",
+        jobType: "Full-Time",
+        location: "Chicago, IL",
+        package: "$150,000",
+        postedDayAgo: "3 days ago",
+        Description: "We are looking for a data scientist with experience in machine learning and big data analytics.",
+        logo: "src/assets/icons/icon1.png"
+    },
+    {
+        jobTitle: "Marketing Manager",
+        company: "Global Brands Inc.",
+        applicants: "60",
+        experience: "3-5 years",
+        jobType: "Full-Time",
+        location: "Los Angeles, CA",
+        package: "$95,000",
+        postedDayAgo: "2 weeks ago",
+        Description: "Manage marketing campaigns, digital strategies, and lead cross-functional teams.",
+        logo: "src/assets/icons/icon1.png"
+    },
+    {
+        jobTitle: "UX/UI Designer",
+        company: "Pixel Innovations",
+        applicants: "75",
+        experience: "3-5 years",
+        jobType: "Contract",
+        location: "Remote",
+        package: "$100,000",
+        postedDayAgo: "4 days ago",
+        Description: "Join our creative team and design seamless user experiences for web and mobile platforms.",
+        logo: "src/assets/icons/icon1.png"
+    },
+    {
+        jobTitle: "Software Tester",
+        company: "Tech Gear Ltd.",
+        applicants: "30",
+        experience: "1-3 years",
+        jobType: "Full-Time",
+        location: "Austin, TX",
+        package: "$80,000",
+        postedDayAgo: "1 week ago",
+        Description: "We are hiring a software tester to ensure our products meet quality standards.",
+        logo: "src/assets/icons/icon1.png"
+    },
+    {
+        jobTitle: "Business Analyst",
+        company: "Enterprise Solutions",
+        applicants: "85",
+        experience: "4-6 years",
+        jobType: "Full-Time",
+        location: "Seattle, WA",
+        package: "$115,000",
+        postedDayAgo: "6 days ago",
+        Description: "Looking for a business analyst to gather requirements and help drive strategic decision-making.",
+        logo: "src/assets/icons/icon1.png"
+    },
+    {
+        jobTitle: "HR Manager",
+        company: "People First Corp.",
+        applicants: "50",
+        experience: "5-7 years",
+        jobType: "Full-Time",
+        location: "Miami, FL",
+        package: "$110,000",
+        postedDayAgo: "3 weeks ago",
+        Description: "Oversee HR processes, talent acquisition, and employee engagement.",
+        logo: "src/assets/icons/icon1.png"
+    },
+    {
+        jobTitle: "Financial Analyst",
+        company: "Finance Pro Services",
+        applicants: "70",
+        experience: "2-4 years",
+        jobType: "Full-Time",
+        location: "Boston, MA",
+        package: "$100,000",
+        postedDayAgo: "2 days ago",
+        Description: "Analyze financial data and provide actionable insights for budgeting and forecasting.",
+        logo: "src/assets/icons/icon1.png"
+    },
+    {
+        jobTitle: "UX/UI Designer",
+        company: "Pixel Innovations",
+        applicants: "75",
+        experience: "3-5 years",
+        jobType: "Contract",
+        location: "Remote",
+        package: "$100,000",
+        postedDayAgo: "4 days ago",
+        Description: "Join our creative team and design seamless user experiences for web and mobile platforms.",
+        logo: "src/assets/icons/icon1.png"
+    },
+    {
+        jobTitle: "Software Tester",
+        company: "Tech Gear Ltd.",
+        applicants: "30",
+        experience: "1-3 years",
+        jobType: "Full-Time",
+        location: "Austin, TX",
+        package: "$80,000",
+        postedDayAgo: "1 week ago",
+        Description: "We are hiring a software tester to ensure our products meet quality standards.",
+        logo: "src/assets/icons/icon1.png"
+    },
+    {
+        jobTitle: "Business Analyst",
+        company: "Enterprise Solutions",
+        applicants: "85",
+        experience: "4-6 years",
+        jobType: "Full-Time",
+        location: "Seattle, WA",
+        package: "$115,000",
+        postedDayAgo: "6 days ago",
+        Description: "Looking for a business analyst to gather requirements and help drive strategic decision-making.",
+        logo: "src/assets/icons/icon1.png"
+    },
+    {
+        jobTitle: "HR Manager",
+        company: "People First Corp.",
+        applicants: "50",
+        experience: "5-7 years",
+        jobType: "Full-Time",
+        location: "Miami, FL",
+        package: "$110,000",
+        postedDayAgo: "3 weeks ago",
+        Description: "Oversee HR processes, talent acquisition, and employee engagement.",
+        logo: "src/assets/icons/icon1.png"
+    },
+    {
+        jobTitle: "Financial Analyst",
+        company: "Finance Pro Services",
+        applicants: "70",
+        experience: "2-4 years",
+        jobType: "Full-Time",
+        location: "Boston, MA",
+        package: "$100,000",
+        postedDayAgo: "2 days ago",
+        Description: "Analyze financial data and provide actionable insights for budgeting and forecasting.",
+        logo: "src/assets/icons/icon1.png"
+    }
+];
+
+
+export default jobcardData;
