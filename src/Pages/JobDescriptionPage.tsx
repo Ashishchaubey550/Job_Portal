@@ -1,5 +1,7 @@
 import { Button, Divider } from '@mantine/core'
 import { Link } from 'react-router-dom'
+import JobDesc from '../JobDescription/JobDesc';
+import RecomandedJob from '../JobDescription/RecomandedJobs';
 
 
 const JobDescriptionPage=()=>{
@@ -11,6 +13,8 @@ const JobDescriptionPage=()=>{
         </Link>
         <Divider size="xs"/>
         <div className='flex gap-5'>
+          <JobDesc/>
+          <RecomandedJob/>
         </div>  
     </div>
   )
