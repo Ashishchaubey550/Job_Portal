@@ -14,11 +14,14 @@ import PostJobs from './Pages/PostJobs';
 import '@mantine/tiptap/styles.css';
 import JobDescriptionPage from './Pages/JobDescriptionPage';
 import ApplyJobPage from './Pages/ApplyJobPage';
+import PostJob from './PostJob/PostJob';
+import PostedJob from './Pages/PostedJob';
 
 function App() {
   return (
     <MantineProvider>
       <BrowserRouter>
+      <div className=' relative'>
       <Header/>
         <Routes>
           <Route path='/postjobs' element={<PostJobs/>}/>
@@ -27,9 +30,11 @@ function App() {
           <Route path='talent_Profile' element={<TalentProfilePage/>}/>
           <Route path='/findtalend' element={<FindTalendtPage/>}/>
           <Route path='/findjobs' element={<FindJobPage/>} />
+          <Route path='/posted_jobs' element={<PostedJob/>} />
           <Route path='*' element={<HomePage />} />
         </Routes>
         <Footer/>
+        </div>
       </BrowserRouter>
     </MantineProvider>
   );

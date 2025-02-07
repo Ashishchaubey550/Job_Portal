@@ -5,7 +5,7 @@ const Navbar = () => {
         {name:"Find Jobs",url:"/findjobs"},
         {name:"Find Talend" , url:"/findtalend"},
         {name:"Upload Job" , url:"/postjobs"},
-        {name:"About Us" , url:"/aboutus"}
+        {name:"Posted Job" , url:"/posted_jobs"}
     ]
     const location = useLocation();
   return (
