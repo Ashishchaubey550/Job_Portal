@@ -1,4 +1,3 @@
-import React from 'react'
 import FooterData from '../Data/FooterData';
 
 const Footer=()=>{

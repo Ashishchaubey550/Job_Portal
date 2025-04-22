@@ -1,4 +1,3 @@
-import React from "react";
 import Sort from "./Sort";
 import JobCard from "./JobCard";
 import jobcardData from "../Data/JobCardData";

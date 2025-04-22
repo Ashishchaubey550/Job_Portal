@@ -14,7 +14,6 @@ import PostJobs from './Pages/PostJobs';
 import '@mantine/tiptap/styles.css';
 import JobDescriptionPage from './Pages/JobDescriptionPage';
 import ApplyJobPage from './Pages/ApplyJobPage';
-import PostJob from './PostJob/PostJob';
 import PostedJob from './Pages/PostedJob';
 
 function App() {

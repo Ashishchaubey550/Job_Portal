@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Button, Combobox, useCombobox } from '@mantine/core';
+import { Combobox, useCombobox } from '@mantine/core';
 
 const opt = ['Relevance', 'Most Recent', 'Salery(Low to High', 'Salery(High to low)'];
 

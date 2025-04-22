@@ -1,5 +1,4 @@
 import jobcardData from "../Data/JobCardData";
-import secondData from "../Data/RecomandedTalentData";
 import JobCard from "../FindJobs/JobCard";
 
 function RecomandedJob() {

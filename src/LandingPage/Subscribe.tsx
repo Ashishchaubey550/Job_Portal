@@ -1,5 +1,4 @@
 import { Button, TextInput } from "@mantine/core";
-import React from "react";
 
 const Subscribe = () => {
   return (
