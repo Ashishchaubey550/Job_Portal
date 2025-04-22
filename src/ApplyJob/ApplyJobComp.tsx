@@ -1,6 +1,5 @@
 import {
   Button,
-  CheckIcon,
   FileInput,
   LoadingOverlay,
   NumberInput,
