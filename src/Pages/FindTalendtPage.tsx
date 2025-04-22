@@ -1,5 +1,4 @@
 import { Divider } from '@mantine/core';
-import React from 'react'
 import Talents from '../FindTalets.tsx/Talents';
 
 const FindJobPage=()=>{

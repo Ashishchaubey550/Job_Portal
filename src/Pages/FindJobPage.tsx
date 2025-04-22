@@ -1,7 +1,5 @@
-import React from 'react'
 import MultiInput from '../FindJobs/MultiInput'
 import Jobs from '../FindJobs/Jobs'
-import { Divider } from '@mantine/core'
 
 const FindJobPage=()=>{
     return(

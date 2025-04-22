@@ -1,8 +1,6 @@
-import React from "react";
 import Sort from "../FindJobs/Sort";
 import TalentData from "../Data/TalentData";
 import TalentCard from "./TalentCard";
-import RecomandedTalents from "./RecomandedTalents";
 
 const Talents = () => {
   return (

@@ -1,5 +1,4 @@
 import { Button, Divider } from "@mantine/core";
-import RecomandedTalents from "../FindTalets.tsx/RecomandedTalents";
 
 const Profile = () => {
   return (

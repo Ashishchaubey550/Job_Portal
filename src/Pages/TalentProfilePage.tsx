@@ -1,5 +1,4 @@
 import { Button, Divider } from '@mantine/core'
-import React from 'react'
 import { Link } from 'react-router-dom'
 import Profile from '../TalentProfilePage.tsx/Profile'
 import RecomandedTalents from '../FindTalets.tsx/RecomandedTalents'

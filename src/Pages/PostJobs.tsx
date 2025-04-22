@@ -1,6 +1,4 @@
-import { Button, Divider } from '@mantine/core'
-import Profile from '../TalentProfilePage.tsx/Profile'
-import RecomandedTalents from '../FindTalets.tsx/RecomandedTalents'
+import {  Divider } from '@mantine/core'
 import PostJob from '../PostJob/PostJob'
 
 const PostJobs=()=>{
